@@ -35,11 +35,13 @@ This project is an e-commerce application built using Go (Golang). It provides f
    ```bash
    git clone https://github.com/irenegujw/ecommerce-go.git
    cd ecommerce-go
+   ```
 
 2. **Install dependencies:**
    
    ```bash
    go mod tidy
+   ```
    
 3. **Set up environment variables:**
 
@@ -52,13 +54,15 @@ This project is an e-commerce application built using Go (Golang). It provides f
   DB_PASSWORD=yourpassword
   DB_NAME=ecommerce
   JWT_SECRET=your_jwt_secret
+   ```
 
-5. **Run the application:**
+4. **Run the application:**
 
   ```bash
   go run main.go
+  ```
 
-6. **Access the API:**
+5. **Access the API:**
 
-  The server will be running on http://localhost:8000. You can use tools like Postman or curl to interact with the API endpoints.
+        The server will be running on http://localhost:8000. You can use tools like Postman or curl to interact with the API endpoints.
    
